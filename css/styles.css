@@ -1,0 +1,105 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-color: white;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color:#9f2241;
+}
+
+.container__principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 350px;
+    margin-top: .6rem;
+}
+
+.logo-cdmx {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 1rem 1rem 0 0;
+}
+
+body > img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 250px;
+}
+
+/*INPUT*/
+.container__datos{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.paragraph{
+    font-size: 1.2rem;
+}
+
+.paragraph__bold{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.input__peatones{
+    font-size: 1rem;
+    width: 16rem;
+    height: 1.6rem;
+    margin: 1rem 0 0 0;
+}
+
+.boton__enviar{
+    color: #9f2241;
+    font-size: 1rem;
+
+    width: 4.2rem;
+    height: 2rem;
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+
+.boton__enviar:hover{
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background-color: #9f2241;
+    width: 4.4rem;
+    height: 2.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+}
+
+.caja{
+    font-family: "Roboto Mono";
+    font-size: 1.2rem;
+}
