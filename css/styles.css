@@ -103,3 +103,78 @@ img {
     font-family: "Roboto Mono";
     font-size: 1.2rem;
 }
+
+.contenedor__informacion__principal{
+    display: flex;
+}
+
+.parrafo__script{
+    font-size: 1.2rem;
+}
+
+.contenedor__botones{
+    
+    margin-top: 1rem;
+}
+
+.boton__clima{
+    width: 12rem;
+    height: 2rem;
+    
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+    border-radius: .4rem;
+}
+
+.boton__clima__bueno{
+    border-color: green;
+    background-color: green;
+}
+
+.boton__clima__bueno:hover{
+    background-color: white;
+    color: green;    
+}
+
+.boton__clima__regular{
+    border-color: rgb(239, 239, 6);
+    background-color: rgb(239, 239, 6);
+}
+
+.boton__clima__regular:hover{
+    background-color: white;
+    color: rgb(239, 239, 6);    
+}
+
+.boton__clima__mala{
+    border-color: orange;
+    background-color: orange;
+}
+
+.boton__clima__mala:hover{
+    background-color: white;
+    color: orange;    
+}
+
+.boton__clima__muy__mala{
+    border-color: red;
+    background-color: red;
+}
+
+.boton__clima__muy__mala:hover{
+    background-color: white;
+    color: red;    
+}
+
+.boton__clima__extremadamente{
+    border-color: rgb(102, 9, 102);
+    background-color: rgb(102, 9, 102);
+}
+
+.boton__clima__extremadamente:hover{
+    background-color: white;
+    color: rgb(102, 9, 102); 
+}

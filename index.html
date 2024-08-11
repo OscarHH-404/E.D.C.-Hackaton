@@ -22,19 +22,20 @@
                 <img src="img/logo_pilares_4.0.PNG" alt="logo_pilares_4.0">
             </a>
         </div>
-        <div>
-            <p class="paragraph paragraph__bold">Paso de peatones inteligente</p>
-            <div class="container__datos">
-                <input class="input__peatones" data-input-peatones type="number"  min="1" max="100" placeholder="Peatones qué desean cruzar">
-                <input class="boton__enviar" data-input-boton type="button" value="Enviar">
+
+        <div class="contenedor__informacion__principal">
+            <div class="contenedor__informacion">
+                <img src="" id="miImg" class="informacion__img" alt="Sin registro de datos">
+                <div class="parrafo__script" data-parrafo></div>
+                <div class="contenedor__botones">
+                    <input class="boton__clima boton__clima__bueno" type="button" value="Buena" onclick="climaBueno()">
+                    <input class="boton__clima boton__clima__regular" type="button" value="Regular" onclick="climaRegular()">
+                    <input class="boton__clima boton__clima__mala" type="button" value="Mala" onclick="climaMalo()">
+                    <input class="boton__clima boton__clima__muy__mala" type="button" value="Muy mala" onclick="climaMuyMalo()">
+                    <input class="boton__clima boton__clima__extremadamente" type="button" value="Extremadamente mala" onclick="climaExtremo()">
+                </div>
             </div>
-            <div class="resultado">
-                <p class="caja paragraph"></p>
-            </div>
-            
         </div>
     </div>
 </body>
 </html>
-
-
